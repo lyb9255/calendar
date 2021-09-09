@@ -1,0 +1,75 @@
+body {
+  background-image: url("./images/bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Varela Round", sans-serif;
+}
+
+.image-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.image-box img {
+  width: 150px;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  font-size: 72px;
+}
+
+.currentDate {
+  text-align: center;
+}
+
+.currentDayOfWeek {
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+.currentDay {
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+.currentMonthAndYear {
+  font-size: 24px;
+  margin: 50px 0 20px;
+}
+
+.calendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: grey;
+}
+
+table thead tr th{
+  text-align: center;
+}
+
+table tbody tr td{
+  text-align: center;
+}
+
+.button {
+  font-size: 20px;
+  margin: 0 50px;
+  outline: none;
+  box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+}
